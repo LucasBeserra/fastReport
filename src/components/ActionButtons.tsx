@@ -1,6 +1,6 @@
 import { CloudUpload } from "lucide-react";
 
-function ActionButtons() {
+export default function ActionButtons() {
 
     return(
       <div className="flex flex-col sm:flex-row gap-4 mt-6">
@@ -14,5 +14,3 @@ function ActionButtons() {
       </div>
     )
 }
-
-export default ActionButtons;

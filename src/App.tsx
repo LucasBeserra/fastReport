@@ -1,13 +1,14 @@
 import './App.css';
 import ActionButtons from './components/ActionButtons';
-import Header from './components/Header';
+import HeaderHead from './components/HeaderHead';
+import QualityCheckTable from './components/QualityCheckTable';
 
 function App() {
 
   return (
     <div>
-      <Header />
-      <h1 className='hover:text-orange-500'>Hello World</h1>
+      <HeaderHead />
+      <QualityCheckTable />
       <ActionButtons />
     </div>
   )
