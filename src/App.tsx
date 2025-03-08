@@ -1,5 +1,5 @@
 import './App.css';
-// import ActionButtons from './components/ActionButtons';
+import ActionButtons from './components/ActionButtons';
 import Header from './components/Header';
 
 function App() {
@@ -7,8 +7,8 @@ function App() {
   return (
     <div>
       <Header />
-      {/* <h1 className='hover:text-orange-500'>Hello World</h1>
-      <ActionButtons /> */}
+      <h1 className='hover:text-orange-500'>Hello World</h1>
+      <ActionButtons />
     </div>
   )
 }
