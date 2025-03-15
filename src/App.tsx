@@ -2,7 +2,6 @@ import './App.css';
 import ActionButtons from './components/ActionButtons';
 import HeaderHead from './components/HeaderHead';
 import QualityCheckTable from './components/QualityCheckTable';
-import { DatePickerDemo} from './components/DatePicker';
 
 function App() {
 
@@ -11,7 +10,6 @@ function App() {
       <HeaderHead />
       <QualityCheckTable />
       <ActionButtons />
-      <DatePickerDemo />
     </div>
   )
 }
