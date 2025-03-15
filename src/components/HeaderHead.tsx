@@ -3,7 +3,7 @@ import logo from '../assets/logo.png';
 
 export default function HeaderHead() {
     return(
-        <div className='bg-white rounded-lg shadow-lg overflow-hidden'>
+        <div className='rounded-lg bg-gray-100 overflow-hidden w-full'>
                 <div className='flex flex-col items-center py-6 text-sm'>
                     <img className='w-70 h-9' src={logo} alt="Enterprise logo"/>
                 </div>
